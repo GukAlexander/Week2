@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.block {
+	padding: 50px;
+	max-width: 1170px;
+	margin: 0px auto;
+}
+.rectangle1 {
+	width: 600px;
+	height: 100px;
+	background-color: red;
+}
+.rectangle2 {
+	width: 600px;
+	height: 100px;
+	background-color: green;
+}
+.rectangle3 {
+	width: 600px;
+	height: 100px;
+	background-color: blue;
+}
+.rectangle4 {
+	width: 600px;
+	height: 50px;
+	background-color: white;
+}
+.rectangle5 {
+	width: 200px;
+	height: 100px;
+	background-color: red;
+}
+.rectangle6 {
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	position: relative;
+	left: 200px;
+	bottom: 100px;
+}
+.rectangle7 {
+	width: 200px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	left: 400px;
+	bottom: 200px;
+}
+.rectangle8 {
+	width: 600px;
+	height: 100px;
+	background-color: gold;
+	position: relative;
+	bottom: 200px;
+}
+.rectangle9 {
+	width: 300px;
+	height: 100px;
+	background-color:gray;
+	position: relative;
+	bottom: 200px;
+}
+.rectangle10 {
+	width: 300px;
+	height: 100px;
+	background-color:black;
+	position: relative;
+	left: 300px;
+	bottom: 300px;
+}
+.rectangle11 {
+	width: 600px;
+	height: 50px;
+	background-color: white;
+	position: relative;
+	left: 300px;
+	bottom: 300px;
+}
+.rectangle12 {
+	width: 800px;
+	height: 300px;
+	background-color: rgb(85, 235, 118);
+	position: relative;
+	bottom: 300px;
+}
+.rectangle13 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+	left: 50px;
+	bottom: 550px;
+}
+.rectangle14 {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: relative;
+	left: 300px;
+	bottom: 750px;
+}
+.rectangle15 {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: relative;
+	left: 550px;
+	bottom: 950px;
+}
+.arial {
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+}
